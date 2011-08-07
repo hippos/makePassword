@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A219F1E313E2773D00BCFEBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A219F1E213E2773D00BCFEBD /* Cocoa.framework */; };
+		A219F1ED13E2773D00BCFEBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A219F1EB13E2773D00BCFEBD /* InfoPlist.strings */; };
+		A219F1F013E2773D00BCFEBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A219F1EF13E2773D00BCFEBD /* main.m */; };
+		A219F1F313E2773D00BCFEBD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A219F1F113E2773D00BCFEBD /* Credits.rtf */; };
+		A219F1F613E2773D00BCFEBD /* makePassword_DEMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A219F1F513E2773D00BCFEBD /* makePassword_DEMOAppDelegate.m */; };
+		A219F1F913E2773D00BCFEBD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A219F1F713E2773D00BCFEBD /* MainMenu.xib */; };
+		A219F20013E2773D00BCFEBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A219F1E213E2773D00BCFEBD /* Cocoa.framework */; };
+		A219F20813E2773E00BCFEBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A219F20613E2773E00BCFEBD /* InfoPlist.strings */; };
+		A219F20B13E2773E00BCFEBD /* makePassword_DEMOTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A219F20A13E2773E00BCFEBD /* makePassword_DEMOTests.h */; };
+		A219F20D13E2773E00BCFEBD /* makePassword_DEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A219F20C13E2773E00BCFEBD /* makePassword_DEMOTests.m */; };
+		A2F8730713ECCCBA00A1C319 /* PreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F8730613ECCCBA00A1C319 /* PreferenceWindowController.m */; };
+		A2F8730913ECCCE800A1C319 /* Preference.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F8730813ECCCE800A1C319 /* Preference.xib */; };
+		A2F8731713ED265B00A1C319 /* ChechCharacterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F8731613ED265B00A1C319 /* ChechCharacterButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A219F20113E2773D00BCFEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A219F1D513E2773D00BCFEBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A219F1DD13E2773D00BCFEBD;
+			remoteInfo = makePassword_DEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A219F1DE13E2773D00BCFEBD /* makePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A219F1E213E2773D00BCFEBD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A219F1E513E2773D00BCFEBD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A219F1E613E2773D00BCFEBD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A219F1E713E2773D00BCFEBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A219F1EA13E2773D00BCFEBD /* makePassword_DEMO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "makePassword_DEMO-Info.plist"; sourceTree = "<group>"; };
+		A219F1EC13E2773D00BCFEBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A219F1EE13E2773D00BCFEBD /* makePassword_DEMO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "makePassword_DEMO-Prefix.pch"; sourceTree = "<group>"; };
+		A219F1EF13E2773D00BCFEBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A219F1F213E2773D00BCFEBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A219F1F413E2773D00BCFEBD /* makePassword_DEMOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = makePassword_DEMOAppDelegate.h; sourceTree = "<group>"; };
+		A219F1F513E2773D00BCFEBD /* makePassword_DEMOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = makePassword_DEMOAppDelegate.m; sourceTree = "<group>"; };
+		A219F1F813E2773D00BCFEBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A219F1FF13E2773D00BCFEBD /* makePassword_DEMOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = makePassword_DEMOTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A219F20513E2773E00BCFEBD /* makePassword_DEMOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "makePassword_DEMOTests-Info.plist"; sourceTree = "<group>"; };
+		A219F20713E2773E00BCFEBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A219F20913E2773E00BCFEBD /* makePassword_DEMOTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "makePassword_DEMOTests-Prefix.pch"; sourceTree = "<group>"; };
+		A219F20A13E2773E00BCFEBD /* makePassword_DEMOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = makePassword_DEMOTests.h; sourceTree = "<group>"; };
+		A219F20C13E2773E00BCFEBD /* makePassword_DEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = makePassword_DEMOTests.m; sourceTree = "<group>"; };
+		A2F8730513ECCCBA00A1C319 /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindowController.h; sourceTree = "<group>"; };
+		A2F8730613ECCCBA00A1C319 /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindowController.m; sourceTree = "<group>"; };
+		A2F8730813ECCCE800A1C319 /* Preference.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preference.xib; sourceTree = "<group>"; };
+		A2F8731513ED265B00A1C319 /* ChechCharacterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChechCharacterButton.h; sourceTree = "<group>"; };
+		A2F8731613ED265B00A1C319 /* ChechCharacterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChechCharacterButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A219F1DB13E2773D00BCFEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F1E313E2773D00BCFEBD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219F1FB13E2773D00BCFEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F20013E2773D00BCFEBD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A219F1D313E2773D00BCFEBD = {
+			isa = PBXGroup;
+			children = (
+				A219F1E813E2773D00BCFEBD /* makePassword_DEMO */,
+				A219F20313E2773D00BCFEBD /* makePassword_DEMOTests */,
+				A219F1E113E2773D00BCFEBD /* Frameworks */,
+				A219F1DF13E2773D00BCFEBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A219F1DF13E2773D00BCFEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A219F1DE13E2773D00BCFEBD /* makePassword.app */,
+				A219F1FF13E2773D00BCFEBD /* makePassword_DEMOTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A219F1E113E2773D00BCFEBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A219F1E213E2773D00BCFEBD /* Cocoa.framework */,
+				A219F1E413E2773D00BCFEBD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A219F1E413E2773D00BCFEBD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A219F1E513E2773D00BCFEBD /* AppKit.framework */,
+				A219F1E613E2773D00BCFEBD /* CoreData.framework */,
+				A219F1E713E2773D00BCFEBD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A219F1E813E2773D00BCFEBD /* makePassword_DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				A2F8731A13ED2AEB00A1C319 /* Rresource */,
+				A2F8731913ED2AD200A1C319 /* PreferenceWindowController */,
+				A2F8731813ED2AA900A1C319 /* SpecialCharactersButton */,
+				A219F1F413E2773D00BCFEBD /* makePassword_DEMOAppDelegate.h */,
+				A219F1F513E2773D00BCFEBD /* makePassword_DEMOAppDelegate.m */,
+				A219F1E913E2773D00BCFEBD /* Supporting Files */,
+			);
+			path = makePassword_DEMO;
+			sourceTree = "<group>";
+		};
+		A219F1E913E2773D00BCFEBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A219F1EA13E2773D00BCFEBD /* makePassword_DEMO-Info.plist */,
+				A219F1EB13E2773D00BCFEBD /* InfoPlist.strings */,
+				A219F1EE13E2773D00BCFEBD /* makePassword_DEMO-Prefix.pch */,
+				A219F1EF13E2773D00BCFEBD /* main.m */,
+				A219F1F113E2773D00BCFEBD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A219F20313E2773D00BCFEBD /* makePassword_DEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				A219F20A13E2773E00BCFEBD /* makePassword_DEMOTests.h */,
+				A219F20C13E2773E00BCFEBD /* makePassword_DEMOTests.m */,
+				A219F20413E2773E00BCFEBD /* Supporting Files */,
+			);
+			path = makePassword_DEMOTests;
+			sourceTree = "<group>";
+		};
+		A219F20413E2773E00BCFEBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A219F20513E2773E00BCFEBD /* makePassword_DEMOTests-Info.plist */,
+				A219F20613E2773E00BCFEBD /* InfoPlist.strings */,
+				A219F20913E2773E00BCFEBD /* makePassword_DEMOTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2F8731813ED2AA900A1C319 /* SpecialCharactersButton */ = {
+			isa = PBXGroup;
+			children = (
+				A2F8731513ED265B00A1C319 /* ChechCharacterButton.h */,
+				A2F8731613ED265B00A1C319 /* ChechCharacterButton.m */,
+			);
+			name = SpecialCharactersButton;
+			sourceTree = "<group>";
+		};
+		A2F8731913ED2AD200A1C319 /* PreferenceWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				A2F8730513ECCCBA00A1C319 /* PreferenceWindowController.h */,
+				A2F8730613ECCCBA00A1C319 /* PreferenceWindowController.m */,
+			);
+			name = PreferenceWindowController;
+			sourceTree = "<group>";
+		};
+		A2F8731A13ED2AEB00A1C319 /* Rresource */ = {
+			isa = PBXGroup;
+			children = (
+				A219F1F713E2773D00BCFEBD /* MainMenu.xib */,
+				A2F8730813ECCCE800A1C319 /* Preference.xib */,
+			);
+			name = Rresource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A219F1DD13E2773D00BCFEBD /* makePassword_DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A219F21013E2773E00BCFEBD /* Build configuration list for PBXNativeTarget "makePassword_DEMO" */;
+			buildPhases = (
+				A219F1DA13E2773D00BCFEBD /* Sources */,
+				A219F1DB13E2773D00BCFEBD /* Frameworks */,
+				A219F1DC13E2773D00BCFEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = makePassword_DEMO;
+			productName = makePassword_DEMO;
+			productReference = A219F1DE13E2773D00BCFEBD /* makePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A219F1FE13E2773D00BCFEBD /* makePassword_DEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A219F21313E2773E00BCFEBD /* Build configuration list for PBXNativeTarget "makePassword_DEMOTests" */;
+			buildPhases = (
+				A219F1FA13E2773D00BCFEBD /* Sources */,
+				A219F1FB13E2773D00BCFEBD /* Frameworks */,
+				A219F1FC13E2773D00BCFEBD /* Resources */,
+				A219F1FD13E2773D00BCFEBD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A219F20213E2773D00BCFEBD /* PBXTargetDependency */,
+			);
+			name = makePassword_DEMOTests;
+			productName = makePassword_DEMOTests;
+			productReference = A219F1FF13E2773D00BCFEBD /* makePassword_DEMOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A219F1D513E2773D00BCFEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "杏林堂薬局";
+			};
+			buildConfigurationList = A219F1D813E2773D00BCFEBD /* Build configuration list for PBXProject "makePassword_DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A219F1D313E2773D00BCFEBD;
+			productRefGroup = A219F1DF13E2773D00BCFEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A219F1DD13E2773D00BCFEBD /* makePassword_DEMO */,
+				A219F1FE13E2773D00BCFEBD /* makePassword_DEMOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A219F1DC13E2773D00BCFEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F1ED13E2773D00BCFEBD /* InfoPlist.strings in Resources */,
+				A219F1F313E2773D00BCFEBD /* Credits.rtf in Resources */,
+				A219F1F913E2773D00BCFEBD /* MainMenu.xib in Resources */,
+				A2F8730913ECCCE800A1C319 /* Preference.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219F1FC13E2773D00BCFEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F20813E2773E00BCFEBD /* InfoPlist.strings in Resources */,
+				A219F20B13E2773E00BCFEBD /* makePassword_DEMOTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A219F1FD13E2773D00BCFEBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A219F1DA13E2773D00BCFEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F1F013E2773D00BCFEBD /* main.m in Sources */,
+				A219F1F613E2773D00BCFEBD /* makePassword_DEMOAppDelegate.m in Sources */,
+				A2F8730713ECCCBA00A1C319 /* PreferenceWindowController.m in Sources */,
+				A2F8731713ED265B00A1C319 /* ChechCharacterButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219F1FA13E2773D00BCFEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F20D13E2773E00BCFEBD /* makePassword_DEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A219F20213E2773D00BCFEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A219F1DD13E2773D00BCFEBD /* makePassword_DEMO */;
+			targetProxy = A219F20113E2773D00BCFEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A219F1EB13E2773D00BCFEBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A219F1EC13E2773D00BCFEBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A219F1F113E2773D00BCFEBD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A219F1F213E2773D00BCFEBD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A219F1F713E2773D00BCFEBD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A219F1F813E2773D00BCFEBD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A219F20613E2773E00BCFEBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A219F20713E2773E00BCFEBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A219F20E13E2773E00BCFEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A219F20F13E2773E00BCFEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A219F21113E2773E00BCFEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "makePassword_DEMO/makePassword_DEMO-Prefix.pch";
+				INFOPLIST_FILE = "makePassword_DEMO/makePassword_DEMO-Info.plist";
+				PRODUCT_NAME = makePassword;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A219F21213E2773E00BCFEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "makePassword_DEMO/makePassword_DEMO-Prefix.pch";
+				INFOPLIST_FILE = "makePassword_DEMO/makePassword_DEMO-Info.plist";
+				PRODUCT_NAME = makePassword;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A219F21413E2773E00BCFEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/makePassword_DEMO.app/Contents/MacOS/makePassword_DEMO";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "makePassword_DEMOTests/makePassword_DEMOTests-Prefix.pch";
+				INFOPLIST_FILE = "makePassword_DEMOTests/makePassword_DEMOTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A219F21513E2773E00BCFEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/makePassword_DEMO.app/Contents/MacOS/makePassword_DEMO";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "makePassword_DEMOTests/makePassword_DEMOTests-Prefix.pch";
+				INFOPLIST_FILE = "makePassword_DEMOTests/makePassword_DEMOTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A219F1D813E2773D00BCFEBD /* Build configuration list for PBXProject "makePassword_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219F20E13E2773E00BCFEBD /* Debug */,
+				A219F20F13E2773E00BCFEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A219F21013E2773E00BCFEBD /* Build configuration list for PBXNativeTarget "makePassword_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219F21113E2773E00BCFEBD /* Debug */,
+				A219F21213E2773E00BCFEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A219F21313E2773E00BCFEBD /* Build configuration list for PBXNativeTarget "makePassword_DEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219F21413E2773E00BCFEBD /* Debug */,
+				A219F21513E2773E00BCFEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A219F1D513E2773D00BCFEBD /* Project object */;
+}
